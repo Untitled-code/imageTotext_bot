@@ -89,7 +89,7 @@ def prepareFolder(chat_id, who_sent, file_id, ext):
     print(f'Working dir is changed to {get_dir}')
 
 # replace XXXX.. with your token
-TOKEN = "5126764525:AAHuT8ojKuJBQqXpPlOwtzllc2LxmgdyWwI"
+TOKEN = ""
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
